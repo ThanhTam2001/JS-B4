@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>javascript Buổi 4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Sắp xếp</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Nhập số thứ 1 : </label>
+                <input id="txtSoThuNhat" type="number" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="">Nhập số thứ 2 : </label>
+                <input id="txtSoThuHai" type="number" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="">Nhập số thứ 3 : </label>
+                <input id="txtSoThuBa" type="number" class="form-control" />
+              </div>
+
+              <button id="btnSapXep" class="btn btn-danger">Sắp xếp</button>
+            </div>
+            <div id="footerKetQua" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Xuất câu xin chào</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Nhập chuỗi : </label>
+                <input id="txtSoThuNhat" type="number" class="form-control" />
+              </div>
+              <button id="btnTinhTong" class="btn btn-danger">Tính</button>
+            </div>
+            <div id="footerKetQua" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Tìm chẳn lẻ</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Nhập số thứ 1 : </label>
+                <input id="txtSo1" type="number" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="">Nhập nhập số 2 : </label>
+                <input id="txtSo2" type="number" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="">Nhập nhập số 3 : </label>
+                <input id="txtSo3" type="number" class="form-control" />
+              </div>
+
+              <button id="btnTim" class="btn btn-danger">Tìm</button>
+            </div>
+            <div id="footerKetQua" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Xét Tam Giác</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Nhập cạnh 1 : </label>
+                <input id="txtCanh1" type="number" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="">Nhập cạnh 2 : </label>
+                <input id="txtCanh2" type="number" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="">Nhập cạnh 3 : </label>
+                <input id="txtCanh3" type="number" class="form-control" />
+              </div>
+
+              <button id="btnTinhTG" class="btn btn-danger">Tính</button>
+            </div>
+            <div id="footerKetQua" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BÀI NÂNG CAO -->
+    <hr />
+    <div class="container py-5">
+      <div class="card">
+        <div class="card-header">Tìm trùm đất Củ Chi</div>
+        <div class="card-body">
+          <div class="information">
+            <p id="name1">Tui</p>
+            <div class="house d-flex justify-content-between">
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ A</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="tui-1a"
+                  placeholder="Tọa độ điểm A"
+                />
+              </div> 
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ B</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="tui-1b"
+                  placeholder="Tọa độ điểm B"
+                />
+              </div>
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ C</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="tui-1c"
+                  placeholder="Tọa độ điểm C"
+                />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="information">
+            <p id="name2">Thiện</p>
+            <div class="house d-flex justify-content-between">
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ A</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="thien-2a"
+                  placeholder="Tọa độ điểm A"
+                />
+              </div>
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ B</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="thien-2b"
+                  placeholder="Tọa độ điểm B"
+                />
+              </div>
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ C</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="thien-2c"
+                  placeholder="Tọa độ điểm C"
+                />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="information">
+            <p id="name3">Thành</p>
+            <div class="house d-flex justify-content-between">
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ A</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="thanh-3a"
+                  placeholder="Tọa độ điểm A"
+                />
+              </div>
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ B</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="thanh-3b"
+                  placeholder="Tọa độ điểm B"
+                />
+              </div>
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ C</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="thanh-3c"
+                  placeholder="Tọa độ điểm C"
+                />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="information">
+            <p>University</p>
+            <div class="house d-flex justify-content-between">
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ A</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="univer-a"
+                  placeholder="Tọa độ điểm A"
+                />
+              </div>
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ B</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="univer-b"
+                  placeholder="Tọa độ điểm B"
+                />
+              </div>
+              <div class="form-group mx-3" style="width: 33.3333%">
+                <label>Tọa độ C</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="univer-c"
+                  placeholder="Tọa độ điểm C"
+                />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <button id="btn-click" class="btn btn-danger">Click me find!</button>
+        </div>
+        <div id="print-univer" class="card-footer text-muted"></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
